@@ -9,40 +9,29 @@ Je recherche un **stage de Data Scientist de 2 à 3 mois, de juin à août 2027*
 
 ## Sirocco
 
-Application mobile (iOS, Android) et web qui réunit les Français à l'étranger et les
-étudiants d'une même ville ou école autour d'événements. En production depuis l'été 2026 :
-**près de 50 membres, 6 communautés** (Marrakech, Paris, Londres, Barcelone, Berlin, ESSEC),
-**5 langues** dont l'arabe, lu de droite à gauche.
+Une application mobile qui aide les Français installés à l'étranger, et les étudiants d'une
+même école, à se rencontrer autour d'événements. En ligne depuis l'été 2026 : **près de 50
+membres, 6 communautés** (Marrakech, Paris, Londres, Barcelone, Berlin, ESSEC) et **5 langues**.
 
-> Le code est privé : démonstration et visite du code sur demande.
+Ce que j'y ai construit côté données (code et tests dans
+**[sirocco-data](https://github.com/idriselhannach/sirocco-data)**) :
 
-### Ce qui touche aux données
+- **Recommandation** : l'application classe les posts et les événements pour chaque membre.
+  Un post récent passe devant un ancien, ceux de ses amis et des gens qu'il aime bien
+  remontent, et une place sur quatre est gardée pour la découverte. Tout se calcule sur le
+  téléphone : ce qu'on lit ne quitte pas l'appareil.
+- **Carte du campus de l'ESSEC** : un plan en 3D construit à partir d'OpenStreetMap, avec 429
+  salles placées d'après les plans d'étage et corrigées automatiquement quand elles tombaient
+  hors des murs.
+- **Points et trophées sans triche** : calculés par le serveur, seulement à partir de faits
+  vérifiés, comme une présence validée par l'organisateur.
+- **Données personnelles** : chaque donnée a une durée de conservation et s'efface
+  automatiquement (RGPD).
 
-- **Système de recommandation.** Le fil et les événements sont classés pour chaque membre :
-  un score de fraîcheur à décroissance exponentielle (demi-vie de 30 heures), pondéré par
-  l'affinité (liens sociaux, auteurs aimés, mots-clés des contenus enregistrés ou lus
-  jusqu'au bout, engagement). Une place sur quatre revient à l'exploration, pour ne pas
-  enfermer chacun dans ce qu'il connaît, et un même auteur n'occupe jamais trois places de
-  suite. Le classement ne s'active qu'au-delà de 20 publications en 48 heures, et se calcule
-  sur le téléphone : aucune donnée de lecture ne quitte l'appareil.
-- **Données géospatiales.** Maquette 3D du campus de l'ESSEC construite à partir
-  d'OpenStreetMap ; géoréférencement de 429 salles issues des plans d'étage et recalage des
-  1 780 prises de vue d'une visite virtuelle sur les bâtiments. Les points tombés hors des
-  murs sont corrigés automatiquement (point dans un polygone, projection sur le mur le plus
-  proche). Chaque communauté a son territoire : les adresses proposées et la carte n'en
-  sortent pas.
-- **Moteur de points résistant à la fraude.** Les points et trophées sont calculés côté
-  serveur, uniquement à partir de faits vérifiés (présence validée par l'organisateur,
-  rencontres) : clés d'idempotence, plafonds quotidiens, tests contre un émulateur de base
-  de données.
-- **Données personnelles.** Base NoSQL dont les règles d'accès sont la seule protection,
-  durées de conservation et purge automatique, politique de confidentialité en cinq langues
-  (RGPD).
+Le reste de l'application est privé : je peux le montrer sur demande.
 
-### Technologies
-
-TypeScript · React · Node.js · Firebase (Realtime Database, Cloud Functions, Storage) ·
-Capacitor (iOS, Android) · MapLibre et OpenStreetMap · three.js · Vitest · Git
+**Technologies** : TypeScript · React · Node.js · Firebase · Capacitor (iOS, Android) ·
+MapLibre et OpenStreetMap · three.js · Vitest
 
 ---
 

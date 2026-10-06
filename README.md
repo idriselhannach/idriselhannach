@@ -46,8 +46,10 @@ météorologie :
 - construction de l'estimateur **BLUE** (*Best Linear Unbiased Estimator*), en scalaire
   puis en vectoriel, à partir des matrices de covariance d'erreur ;
 - outils d'optimisation : gradient, multiplicateurs de Lagrange, méthodes de descente ;
-- **expérience jumelle** sur des données météorologiques réelles, en Python (NumPy, pandas,
-  SciPy, Matplotlib) dans un notebook Jupyter ; rapport rédigé en LaTeX.
+- **expérience jumelle** sur des relevés de température réels à Versailles, en Python (NumPy,
+  pandas, SciPy, Matplotlib) dans un notebook Jupyter ; rapport rédigé en LaTeX.
+
+Code et rapport : **[assimilation-donnees](https://github.com/idriselhannach/assimilation-donnees)**
 
 ---
 

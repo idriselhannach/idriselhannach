@@ -28,7 +28,8 @@ Ce que j'y ai construit côté données (code et tests dans
 - **Données personnelles** : chaque donnée a une durée de conservation et s'efface
   automatiquement (RGPD).
 
-Le reste de l'application est privé : je peux le montrer sur demande.
+Le reste de l'application est privé : je peux le montrer sur demande. Elle a été développée avec
+l'aide de l'IA (Claude Code).
 
 **Technologies** : TypeScript · React · Node.js · Firebase · Capacitor (iOS, Android) ·
 MapLibre et OpenStreetMap · three.js · Vitest
@@ -52,6 +53,6 @@ météorologie :
 
 ## Compétences
 
-**Programmation** : Python (NumPy, pandas, SciPy, Matplotlib, Jupyter), SQL, TypeScript / JavaScript, LaTeX
+**Programmation** : Python (NumPy, pandas, SciPy, Matplotlib, Jupyter), SQL, Git/GitHub, LaTeX
 **Mathématiques** : probabilités, statistique, apprentissage statistique, optimisation, séries temporelles
-**Langues** : français, anglais (B2), espagnol (B1)
+**Langues** : français, anglais (B2), espagnol (A2)

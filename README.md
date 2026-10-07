@@ -1,7 +1,8 @@
 # Idris El Hannach
 
 Étudiant en **M1 Sciences des données pour l'ingénieur·e (SCDI)**, Sorbonne Université & ISUP.
-Je recherche un **stage de Data Scientist de 2 à 3 mois, de juin à août 2027**.
+Je recherche un **stage de Data Scientist de 2 à 3 mois, de juin à août 2027**, et je suis
+ouvert à un **contrat d'apprentissage en M2** pour l'année 2027-2028.
 
 📫 idriselhannach@gmail.com
 
@@ -9,30 +10,22 @@ Je recherche un **stage de Data Scientist de 2 à 3 mois, de juin à août 2027*
 
 ## Sirocco
 
-Une application mobile qui aide les Français installés à l'étranger, et les étudiants d'une
-même école, à se rencontrer autour d'événements. En ligne depuis l'été 2026 : **près de 50
-membres, 6 communautés** (Marrakech, Paris, Londres, Barcelone, Berlin, ESSEC) et **5 langues**.
+**Le constat.** En arrivant à l'étranger, on ne sait pas où sont les autres Français, ni ce
+qu'ils font ce week-end. Et en arrivant dans une nouvelle école, on ne connaît encore personne.
 
-Ce que j'y ai construit côté données (code et tests dans
-**[sirocco-data](https://github.com/idriselhannach/sirocco-data)**) :
+**La réponse.** Une application mobile où chaque ville, ou chaque école, a sa propre
+communauté : un fil d'actualité, des événements pour se retrouver en vrai, et une messagerie.
 
-- **Recommandation** : l'application classe les posts et les événements pour chaque membre.
-  Un post récent passe devant un ancien, ceux de ses amis et des gens qu'il aime bien
-  remontent, et une place sur quatre est gardée pour la découverte. Tout se calcule sur le
-  téléphone : ce qu'on lit ne quitte pas l'appareil.
-- **Carte du campus de l'ESSEC** : un plan en 3D construit à partir d'OpenStreetMap, avec 429
-  salles placées d'après les plans d'étage et corrigées automatiquement quand elles tombaient
-  hors des murs.
-- **Points et trophées sans triche** : calculés par le serveur, seulement à partir de faits
-  vérifiés, comme une présence validée par l'organisateur.
-- **Données personnelles** : chaque donnée a une durée de conservation et s'efface
-  automatiquement (RGPD).
+**Aujourd'hui.** Près de 50 membres et 6 communautés : Marrakech, Paris, Londres, Barcelone,
+Berlin, et un espace privé pour les étudiants de l'ESSEC. En 5 langues, sur iPhone, Android et
+le web.
 
-Le reste de l'application est privé : je peux le montrer sur demande. Elle a été développée avec
-l'aide de l'IA (Claude Code).
+**Mon rôle.** Fondateur : j'ai imaginé le projet, choisi ses fonctionnalités, lancé ses
+communautés, et je le fais évoluer avec les retours des membres. L'application est développée
+avec l'aide de l'IA (Claude Code).
 
-**Technologies** : TypeScript · React · Node.js · Firebase · Capacitor (iOS, Android) ·
-MapLibre et OpenStreetMap · three.js · Vitest
+Les parties qui touchent aux données (recommandation, carte du campus, points) sont dans
+**[sirocco-data](https://github.com/idriselhannach/sirocco-data)**.
 
 ---
 

@@ -8,24 +8,27 @@ ouvert à un **contrat d'apprentissage en M2** pour l'année 2027-2028.
 
 ---
 
-## Sirocco
+## Alley
 
-**Le constat.** En arrivant à l'étranger, on ne sait pas où sont les autres Français, ni ce
-qu'ils font ce week-end. Et en arrivant dans une nouvelle école, on ne connaît encore personne.
+**Le constat.** Là où l'on vit, dans sa ville comme sur son campus, il est difficile de
+trouver sa communauté, et plus encore de la rencontrer. On croise les mêmes personnes sans
+savoir ce qu'elles font ce week-end.
 
 **La réponse.** Une application mobile où chaque ville, ou chaque école, a sa propre
-communauté : un fil d'actualité, des événements pour se retrouver en vrai, et une messagerie.
+communauté : un fil d'actualité, des événements pour se retrouver en vrai, une messagerie et
+une carte des lieux où se donner rendez-vous.
 
-**Aujourd'hui.** Près de 50 membres et 6 communautés : Marrakech, Paris, Londres, Barcelone,
-Berlin, et un espace privé pour les étudiants de l'ESSEC. En 5 langues, sur iPhone, Android et
-le web.
+**Aujourd'hui.** Plus de 90 membres et 7 communautés : Marrakech, Paris, Londres, Barcelone,
+Berlin, Poissy, et un espace privé pour les étudiants de l'ESSEC et ses 123 associations.
+En 5 langues, sur iPhone, Android et le web : [alleyapp.fr](https://alleyapp.fr).
 
 **Mon rôle.** Fondateur : j'ai imaginé le projet, choisi ses fonctionnalités, lancé ses
-communautés, et je le fais évoluer avec les retours des membres. L'application est développée
-avec l'aide de l'IA (Claude Code).
+communautés, et je le fais évoluer avec les retours des membres. L'application s'appelait
+Sirocco jusqu'en novembre 2026 : j'ai mené son changement de nom et d'identité visuelle, de
+l'application aux fiches des magasins. Elle est développée avec l'aide de l'IA (Claude Code).
 
-Les parties qui touchent aux données (recommandation, carte du campus, points) sont dans
-**[sirocco-data](https://github.com/idriselhannach/sirocco-data)**.
+Les parties qui touchent aux données (recommandation, carte du campus, carte des lieux) sont
+dans **[sirocco-data](https://github.com/idriselhannach/sirocco-data)**.
 
 ---
 

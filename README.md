@@ -23,12 +23,12 @@ Berlin, Poissy, et un espace privé pour les étudiants de l'ESSEC et ses 123 as
 En 5 langues, sur iPhone, Android et le web : [alleyapp.fr](https://alleyapp.fr).
 
 **Mon rôle.** Fondateur : j'ai imaginé le projet, choisi ses fonctionnalités, lancé ses
-communautés, et je le fais évoluer avec les retours des membres. L'application s'appelait
-Sirocco jusqu'en novembre 2026 : j'ai mené son changement de nom et d'identité visuelle, de
-l'application aux fiches des magasins. Elle est développée avec l'aide de l'IA (Claude Code).
+communautés, et je le fais évoluer avec les retours des membres. En novembre 2026, j'ai mené
+son changement de nom et d'identité visuelle, de l'application aux fiches des magasins. Elle est
+développée avec l'aide de l'IA (Claude Code).
 
 Les parties qui touchent aux données (recommandation, carte du campus, carte des lieux) sont
-dans **[sirocco-data](https://github.com/idriselhannach/sirocco-data)**.
+dans **[alley-data](https://github.com/idriselhannach/sirocco-data)**.
 
 ---
 

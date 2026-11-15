@@ -28,7 +28,7 @@ son changement de nom et d'identité visuelle, de l'application aux fiches des m
 développée avec l'aide de l'IA (Claude Code).
 
 Les parties qui touchent aux données (recommandation, carte du campus, carte des lieux) sont
-dans **[alley-data](https://github.com/idriselhannach/sirocco-data)**.
+dans **[Alley-data](https://github.com/idriselhannach/Alley-data)**.
 
 ---
 
